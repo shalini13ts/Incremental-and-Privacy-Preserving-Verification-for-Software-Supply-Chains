@@ -1,4 +1,4 @@
-# zk-SSC-Security-Verification
+# Privacy Preserving Attestation Verifier for Software Suppy Chain
 
 ## 🗂️ Table of Contents
 
