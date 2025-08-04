@@ -64,7 +64,7 @@ Prototype implementation of a privacy preserving (zero-knowledge) version of the
   - Extracts the public keys of all the functionaries corresponding to all stpes from the verified layout.
   - Verifies the signature on each link-metadata document using the authentic public-key of the corresponding functionary
   - Verifies whether the commands, materials and products of each step, as reported in the corresponding link-metadata, comply with the specifications described in the layout or not.
-- If the above verification is successful, the end-client gets the assurance that the softawre delivered to it has come through a secure supply chain.
+- If the above verification is successful, the end-client gets the assurance that the software delivered to it has come through a secure supply chain.
   
 For more details, please go through [this](./Documentation/in-toto-spec.pdf)
 
@@ -271,7 +271,7 @@ This will generate `CircomInput.json`
 - adding templates for implementing the other artifact rules - MATCH, DELETE, MODIFY, ALLOW. Specifically implementing MATCH rule is challenging considering its complex logic.
 - extending the DIALLOW template to make it generic so that it can work for any pattern
 - implementing all the computations (circuits, proof generation and proof verification) in Rust instead of Circom + SnarkJS so that the process executes much faster when the input size is very large
-- implementing aggregate proof-generation for multiple link-metadata files - requires recursive SNARK : not possible in Circom + SnarkJS : equires implementation in Rust
+- implementing aggregate proof-generation for multiple link-metadata files - requires recursive SNARK : not possible in Circom + SnarkJS : requires implementation in Rust
  
 
 ## 📚 References:-
@@ -291,7 +291,7 @@ For any query please send your email at soumya at ieee dot org
 
 [🔝 Back to Top](#)
 
-- SHALINI TS (Developper)
+- SHALINI TS (Developer)
 - JUNAID ALAM (Coordinator)
 - DR. SOUMYADEV MAITY (Mentor)
 - DR. TRISHANK KARTHIK KUPPUSAMY (Mentor)
