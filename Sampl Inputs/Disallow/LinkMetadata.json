@@ -1,0 +1,50 @@
+{
+  "link_type": "link",
+  "link_name": "fetch",
+  "link_command": [
+    	"dget",
+    	"http://cdn.debian.net/debian/pool/main/g/grep/grep_2.12-2.dsc"
+    ],
+  "materials_Count":"4",
+  "link_materials": [
+  		{
+        		"Artifact": "/home/lukas/demo/foo.cpp",
+        		"sha256": "37887d8aecec66e75365abd8c41be94f75e7a3acf1d6b27fc121584f47281525"
+        	},
+        	{
+        		"Artifact": "/home/lukas/demo/src.cpp",
+      			"sha256": "278610709068088787446961664930774117663402738301284259070649316813614963574"
+       		},
+       		{
+        		"Artifact": "/home/lukas/demo/foo.txt",
+          		"sha256": "37887d8aecec66e75365abd8c41be94f75e7a3acf1d6b27fc121584f47281525"
+            	},
+            	{
+            		"Artifact": "/home/lukas/demo/abc.cpp",
+          		"sha256": "37887d8aecec66e75365abd8c41be94f75e7a3acf1d6b27fc121584f47281525"
+            	}
+    ],
+    "products_Count":"4",
+    "link_products": [
+    		{
+      			"Artifact": "/home/lukas/demo/xyz.cpp",
+        		"sha256": "37887d8aecec66e75365abd8c41be94f75e7a3acf1d6b27fc121584f47281525"
+      		},
+      		{
+        		"Artifact": "/home/lukas/demo/file1.txt",
+            		"sha256": "37887d8aecec66e75365abd8c41be94f75e7a3acf1d6b27fc121584f47281525"
+          	},
+          	{
+          		"Artifact": "/home/lukas/demo/xyz.cpp",
+      			"sha256": "278610709068088787446961664930774117663402738301284259070649316813614963574"
+        	},
+        	{
+        		"Artifact": "/home/lukas/demo/file1.txt",
+          		"sha256": "37887d8aecec66e75365abd8c41be94f75e7a3acf1d6b27fc121584f47281525"
+        	}
+   ]
+}
+
+
+
+

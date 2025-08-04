@@ -1,0 +1,40 @@
+{
+  "layout_type": "step",
+  "layout_name": "fetch",
+  "expected_command": [
+      "dget",
+      "http://cdn.debian.net/debian/pool/main/g/grep/grep_2.12-2.dsc"
+    ],
+  "expected_materials": [
+      [
+        "REQUIRE",
+        "foo.cpp"
+      ],
+      [
+        "REQUIRE",
+        "src.cpp"
+      ],
+      [
+        "REQUIRE",
+        "foo.txt"
+      ]
+    ],
+    "expected_products": [
+      [
+        "CREATE",
+        "xyz.cpp"
+      ],
+      [
+        "REQUIRE",
+        "file1.txt"
+      ],
+      [
+        "REQUIRE",
+        "file2.txt"
+      ]
+    ]
+}
+
+
+
+
