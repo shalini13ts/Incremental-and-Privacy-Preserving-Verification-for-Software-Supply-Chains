@@ -1,5 +1,4 @@
-# Privacy Preserving Attestation Verifier for Software Suppy Chain
-
+# Incremental and Privacy Preserving for Software Supply Chain
 ## 🗂️ Table of Contents
 
 - 🎯 [Objective of the Project](#--objective-of-the-project) 
